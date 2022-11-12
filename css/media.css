@@ -1,0 +1,78 @@
+
+/* x-Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {  
+    nav ul li a {
+        text-align: center;
+        border: none !important;
+        background-color: white;
+        color: black !important;
+    }
+    .title1 h1::after{
+        font-size: 2.5rem;
+    }
+  #carouselExampleIndicators div.text-center{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  #WORK ul {
+    width: 75% !important;
+  }
+ 
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    nav ul li a {
+        text-align: center;
+        border: none !important;
+        background-color: white;
+        color: black !important;
+    }
+    .title1 h1::after{
+        font-size: 3rem;
+    }
+    #carouselExampleIndicators div.text-center{
+        width: 100% !important;
+        padding: 0 !important;
+      }
+      #WORK ul {
+        width: 75% !important;
+      }
+ 
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+       nav ul li a {
+        text-align: center;
+        border: none !important;
+        background-color: white;
+        color: black !important;
+    }
+    #WORK ul {
+        width: 50% !important;
+      }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    form {
+        width: 80% !important;
+        margin: auto;
+    }
+    #WORK ul {
+        width: 50% !important;
+      }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    form {
+        width: 80% !important;
+        margin: auto;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
