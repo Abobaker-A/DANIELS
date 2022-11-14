@@ -255,277 +255,576 @@
       <div class="title position-relative text-center pt-5">
         <h2 class="display-5 fw-bolder ">Portfolio.</h2>
       </div>
-      <div class="py-5">
-        <ul class="list-unstyled w-25 d-flex justify-content-around  m-auto  ">
-          <li>
-            <button  class=" rounded-2  active border-0 bg-transparent fw-bold"> All </button>
-          </li>
-          <li>
-            <button  class=" rounded-2 border-0 bg-transparent fw-bold" > Brand </button>
-          </li>
-          <li>
-            <button  class=" rounded-2 border-0 bg-transparent fw-bold" "> Design </button>
-          </li>
-          <li>
-            <button  class=" rounded-2 border-0 bg-transparent fw-bold" > Graphic </button>
-          </li>
-          
-        </ul>
+      
+      <ul class="list-unstyled w-25 d-flex justify-content-around  m-auto py-5 " id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-2 px-2 py-1  active border-0 bg-transparent fw-bold " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-2 px-2 py-1  border-0 bg-transparent fw-bold" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Brand</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-2 px-2 py-1  border-0 bg-transparent fw-bold" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Design</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-2 px-2 py-1  border-0 bg-transparent fw-bold" id="graphic-tab" data-bs-toggle="tab" data-bs-target="#graphic-tab-pane" type="button" role="tab" aria-controls="graphic-tab-pane" aria-selected="false">Graphic</button>
+        </li>
+       
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div  class="container px-5 ">
+          <div  class="row  gy-5  ">
+            <div class="   col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/1.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal1" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/1.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            <div class="   col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/2.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal2" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/2.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+             <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/3.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal3" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/3.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/4.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal4" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/4.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal5" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/6.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal6" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/6.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+  
+       
+    
+    
+    
+          </div>
+  
+        </div></div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"> <div  class="container px-5 ">
+          <div  class="row  gy-5  ">          
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/4.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal4" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/4.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/6.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal6" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/6.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>  
+          </div>
+  
+        </div></div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><div  class="container px-5 ">
+          <div  class="row  gy-5  ">
+            
+            <div class="   col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/2.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal2" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/2.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal5" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+          </div>
+  
+        </div></div>
+        <div class="tab-pane fade" id="graphic-tab-pane" role="tabpanel" aria-labelledby="graphic-tab" tabindex="0"><div  class="container px-5 ">
+          <div  class="row  gy-5  ">
+            <div class="   col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/1.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal1" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/1.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            
+             <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/3.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal3" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/3.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+            <div class="  col-xl-4 col-lg-6 col-md-6 ">
+              <div class=" item  text-center position-relative ">
+                <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
+                  <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
+                    <h6 class="text-black ">WEB DESIGN</h6>
+                    <div class="d-flex  ">
+                      <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
+                       <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
+  
+                      </div>
+                      <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
+                         <button data-bs-toggle="modal" data-bs-target="#exampleModal5" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
+                      </div>
+                      
+                  
+                     
+                           
+  
+                    </div>
+  
+  
+                  </div>
+    
+    
+              </div>
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                   
+                    <div class="modal-body">
+                      <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
+  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+       
+    
+            </div>
+          </div>
+  
+        </div></div>
       </div>
 
-      <div  class="container px-5 ">
-        <div  class="row  gy-5  ">
-          <div class="   col-xl-4 col-lg-6 col-md-6 ">
-            <div class=" item  text-center position-relative ">
-              <img class="w-100" src="Img/img/portfolio/1.jpg" alt="Item">
-                <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
-                  <h6 class="text-black ">WEB DESIGN</h6>
-                  <div class="d-flex  ">
-                    <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
-                     <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
-
-                    </div>
-                    <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
-                       <button data-bs-toggle="modal" data-bs-target="#exampleModal1" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
-                    </div>
-                    
-                
-                   
-                         
-
-                  </div>
-
-
-                </div>
-  
-  
-            </div>
-            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                 
-                  <div class="modal-body">
-                    <img class="w-100" src="Img/img/portfolio/1.jpg" alt="Item">
-
-                  </div>
-                
-                </div>
-              </div>
-            </div>
      
-  
-          </div>
-          <div class="   col-xl-4 col-lg-6 col-md-6 ">
-            <div class=" item  text-center position-relative ">
-              <img class="w-100" src="Img/img/portfolio/2.jpg" alt="Item">
-                <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
-                  <h6 class="text-black ">WEB DESIGN</h6>
-                  <div class="d-flex  ">
-                    <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
-                     <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
-
-                    </div>
-                    <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
-                       <button data-bs-toggle="modal" data-bs-target="#exampleModal2" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
-                    </div>
-                    
-                
-                   
-                         
-
-                  </div>
-
-
-                </div>
-  
-  
-            </div>
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                 
-                  <div class="modal-body">
-                    <img class="w-100" src="Img/img/portfolio/2.jpg" alt="Item">
-
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-     
-  
-          </div>
-           <div class="  col-xl-4 col-lg-6 col-md-6 ">
-            <div class=" item  text-center position-relative ">
-              <img class="w-100" src="Img/img/portfolio/3.jpg" alt="Item">
-                <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
-                  <h6 class="text-black ">WEB DESIGN</h6>
-                  <div class="d-flex  ">
-                    <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
-                     <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
-
-                    </div>
-                    <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
-                       <button data-bs-toggle="modal" data-bs-target="#exampleModal3" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
-                    </div>
-                    
-                
-                   
-                         
-
-                  </div>
-
-
-                </div>
-  
-  
-            </div>
-            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                 
-                  <div class="modal-body">
-                    <img class="w-100" src="Img/img/portfolio/3.jpg" alt="Item">
-
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-     
-  
-          </div>
-          
-          <div class="  col-xl-4 col-lg-6 col-md-6 ">
-            <div class=" item  text-center position-relative ">
-              <img class="w-100" src="Img/img/portfolio/4.jpg" alt="Item">
-                <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
-                  <h6 class="text-black ">WEB DESIGN</h6>
-                  <div class="d-flex  ">
-                    <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
-                     <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
-
-                    </div>
-                    <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
-                       <button data-bs-toggle="modal" data-bs-target="#exampleModal4" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
-                    </div>
-                    
-                
-                   
-                         
-
-                  </div>
-
-
-                </div>
-  
-  
-            </div>
-            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                 
-                  <div class="modal-body">
-                    <img class="w-100" src="Img/img/portfolio/4.jpg" alt="Item">
-
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-     
-  
-          </div>
-          
-          <div class="  col-xl-4 col-lg-6 col-md-6 ">
-            <div class=" item  text-center position-relative ">
-              <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
-                <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
-                  <h6 class="text-black ">WEB DESIGN</h6>
-                  <div class="d-flex  ">
-                    <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
-                     <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
-
-                    </div>
-                    <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
-                       <button data-bs-toggle="modal" data-bs-target="#exampleModal5" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
-                    </div>
-                    
-                
-                   
-                         
-
-                  </div>
-
-
-                </div>
-  
-  
-            </div>
-            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                 
-                  <div class="modal-body">
-                    <img class="w-100" src="Img/img/portfolio/5.jpg" alt="Item">
-
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-     
-  
-          </div>
-          
-          <div class="  col-xl-4 col-lg-6 col-md-6 ">
-            <div class=" item  text-center position-relative ">
-              <img class="w-100" src="Img/img/portfolio/6.jpg" alt="Item">
-                <div class=" layeritm opacity-0 flex-column justify-content-center align-items-center d-flex position-absolute top-0 bottom-0 start-0 end-0 bg-white bg-opacity-75  m-3">
-                  <h6 class="text-black ">WEB DESIGN</h6>
-                  <div class="d-flex  ">
-                    <div class="iconcont bg-black rounded-circle d-flex justify-content-center align-items-center">
-                     <button class="border-0 bg-transparent text-white fa fs-6 fa-chain-broken "></button>
-
-                    </div>
-                    <div class="iconcont ms-3 bg-black rounded-circle d-flex justify-content-center align-items-center " >
-                       <button data-bs-toggle="modal" data-bs-target="#exampleModal6" type="button" class=" border-0 bg-transparent text-white fa fs-6 fa fa-search-plus"></button> 
-                    </div>
-                    
-                
-                   
-                         
-
-                  </div>
-
-
-                </div>
-  
-  
-            </div>
-            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog ">
-                <div class="modal-content">
-                 
-                  <div class="modal-body">
-                    <img class="w-100" src="Img/img/portfolio/6.jpg" alt="Item">
-
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-     
-  
-          </div>
-
-     
-  
-  
-  
-        </div>
-
-      </div>
     </section>
 
 
